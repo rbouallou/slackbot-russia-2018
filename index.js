@@ -56,7 +56,7 @@ if (process.env.ENABLE_STATIC_WEB === "true") {
     app.get('*', function (request, response) {
         response.send("Keep alive");
     });
-    app.listen(port);
+    app.listen(port, '0.0.0.0');
 }
 
 function runJob() {
