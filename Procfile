@@ -1,1 +1,1 @@
-worker: node index.js football-data -p $PORT
+worker: node index.js football-data
