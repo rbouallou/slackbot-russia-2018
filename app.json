@@ -30,12 +30,12 @@
         },
         "SHOW_ZONES_JSON": {
             "description": "A key-value object that represent the available timezones where the match time will be shown, the key could be anything (preferably a timezone name), the value should be the integer offset hours of the timezone",
-            "value": "{ \"ART\": \"-3\", \"IST\": \"+1\" }",
+            "value": "{ \"CEST\": \"+2\" }",
             "required": false
         },
         "CRON_SCHEDULE": {
             "description": " The cron expression to schedule each Api check. The default is every 15 minutes.",
-            "value": "*/15 * * * *",
+            "value": "*/1 * * * *",
             "required": false
         },
         "LANGUAGE": {
